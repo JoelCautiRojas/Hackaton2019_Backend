@@ -4,14 +4,19 @@
  */
 class ControllerApitoken extends CI_Controller
 {
-	
-	function __construct(argument)
+
+	/*
+	|
+	|
+	|
+	*/
+	function __construct()
 	{
-		# code...
+		parent::__construct();
 	}
 
-	function getToken(){
-
+	public function getToken(){
+		echo json_encode("Hola amigo");
 	}
 }
 
