@@ -2,7 +2,7 @@
 /**
  * 
  */
-class ApiToken extends CI_Controller
+class ControllerApitoken extends CI_Controller
 {
 	
 	function __construct(argument)
@@ -11,7 +11,7 @@ class ApiToken extends CI_Controller
 	}
 
 	function getToken(){
-		
+
 	}
 }
 
