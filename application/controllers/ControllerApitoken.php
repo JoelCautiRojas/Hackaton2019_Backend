@@ -33,7 +33,7 @@ class ControllerApitoken extends CI_Controller
 							"url" => $url
 						),
 						"error" => array());
-		echo json_encode($json);
+		echo json_encode($json,JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 	}
 }
 
